@@ -75,7 +75,7 @@ export const Navigation: FC = () => {
               className="flex items-center gap-1 px-3 py-1.5 rounded-full border border-border text-sm font-semibold text-foreground hover:bg-muted transition-colors"
               aria-label="Toggle language"
             >
-              <span className="text-xs opacity-60">{language === 'hi' ? '🇮🇳' : '🇬🇧'}</span>
+              <span className="text-xs opacity-60">{language === 'HI' ? 'EN'}</span>
               {t.langToggle}
             </button>
 
