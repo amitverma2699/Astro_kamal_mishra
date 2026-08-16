@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#720e17" />
+      <stop offset="100%" stop-color="#3e0004" />
+    </radialGradient>
+    <!-- Gold Metallic Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF59D" />
+      <stop offset="25%" stop-color="#FFD54F" />
+      <stop offset="50%" stop-color="#FFA000" />
+      <stop offset="75%" stop-color="#FFD54F" />
+      <stop offset="100%" stop-color="#aa7c11" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)" />
+  
+  <!-- Outer Gold Border -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="url(#goldGrad)" stroke-width="6" />
+  <!-- Inner thin gold border -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.7" />
+
+  <g transform="translate(256, 256) scale(0.85) translate(-256, -256)">
+    <!-- Trishul (Trident) -->
+    <!-- Main shaft -->
+    <path d="M 256,120 L 256,430" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round" />
+    <!-- Base stand ornament -->
+    <path d="M 240,430 L 272,430" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Central Prong -->
+    <path d="M 256,60 L 246,120 L 266,120 Z" fill="url(#goldGrad)" />
+    <!-- Left Prong -->
+    <path d="M 256,150 C 180,150 160,100 160,90 C 160,110 180,220 256,220" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round" />
+    <!-- Right Prong -->
+    <path d="M 256,150 C 332,150 350,100 350,90 C 350,110 332,220 256,220" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Left & Right prong tips -->
+    <path d="M 160,90 L 155,80 L 168,85 Z" fill="url(#goldGrad)" />
+    <path d="M 350,90 L 355,80 L 342,85 Z" fill="url(#goldGrad)" />
+
+    <!-- Damru (Drum) tied to the shaft at center -->
+    <path d="M 220,250 L 292,250 L 256,280 Z" fill="url(#goldGrad)" stroke="url(#goldGrad)" stroke-width="4" stroke-linejoin="round" />
+    <path d="M 220,310 L 292,310 L 256,280 Z" fill="url(#goldGrad)" stroke="url(#goldGrad)" stroke-width="4" stroke-linejoin="round" />
+    <!-- Damru details / rings -->
+    <circle cx="256" cy="280" r="6" fill="#720e17" stroke="url(#goldGrad)" stroke-width="3" />
+    <!-- Damru beads/strings -->
+    <path d="M 256,280 Q 210,310 190,300" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+    <path d="M 256,280 Q 300,310 320,300" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+    <circle cx="190" cy="300" r="4" fill="url(#goldGrad)" />
+    <circle cx="320" cy="300" r="4" fill="url(#goldGrad)" />
+  </g>
+</svg>

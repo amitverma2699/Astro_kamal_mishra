@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
@@ -9,6 +9,8 @@ import { Footer } from '@/components/Footer';
 import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
 
 export const HomePage: FC = () => {
+  const [selectedService, setSelectedService] = useState<string>('');
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navigation />
@@ -16,9 +18,9 @@ export const HomePage: FC = () => {
       <main className="flex-1">
         <Hero />
         <About />
-        <Services />
+        <Services onSelectService={setSelectedService} />
         <Trust />
-        <Contact />
+        <Contact selectedService={selectedService} onServiceChange={setSelectedService} />
       </main>
       
       <Footer />
@@ -26,3 +28,4 @@ export const HomePage: FC = () => {
     </div>
   );
 };
+
