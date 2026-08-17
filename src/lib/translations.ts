@@ -28,6 +28,8 @@ export interface Translations {
   aboutP1: string;
   aboutP2: string;
   aboutP3: string;
+  aboutP4: string;
+  aboutP5: string;
   aboutYearsLabel: string;
   aboutAuthLabel: string;
 
@@ -93,10 +95,12 @@ const hi: Translations = {
 
   // About
   aboutHeading1: 'परंपरागत वैदिक ज्ञान,',
-  aboutHeading2: 'आधुनिक जीवन का मार्गदर्शन',
-  aboutP1: 'आचार्य कमल नयन मिश्रा एक अत्यंत सम्माननीय वैदिक ज्योतिषी और आध्यात्मिक मार्गदर्शक हैं, जो श्री गणेश मंदिर, रोहतक में स्थित हैं। भारतीय परंपराओं में गहरी जड़ें रखते हुए, उन्होंने अपना जीवन ज्योतिष शास्त्र और कर्मकांड के अध्ययन और अभ्यास को समर्पित किया है।',
-  aboutP2: 'शीघ्र समाधान देने की बजाय, गुरुजी आपकी कुंडली (जन्म कुंडली) का सूक्ष्म विश्लेषण कर जीवन मार्ग की गहरी अंतर्दृष्टि प्रदान करते हैं। करियर, रिश्ते, स्वास्थ्य और आध्यात्मिक विकास में चुनौतियों का सामना करने वाले लोग उनका मार्गदर्शन लेते हैं।',
-  aboutP3: 'प्रत्येक परामर्श पूर्णतः गोपनीय, अत्यंत सहानुभूतिपूर्ण और व्यावहारिक वैदिक उपायों पर केंद्रित होता है जो स्थायी शांति और समृद्धि लाते हैं।',
+  aboutHeading2: 'शास्त्रीय शिक्षा और 15+ वर्षों का अनुभव',
+  aboutP1: 'आचार्य कमल नयन मिश्रा एक प्रतिष्ठित वैदिक ज्योतिषी, कर्मकांड विशेषज्ञ एवं आध्यात्मिक मार्गदर्शक हैं, जो श्री गणेश मंदिर, रोहतक में अपनी सेवाएँ प्रदान करते हैं। 15+ वर्षों के अनुभव के साथ उन्होंने वैदिक ज्योतिष, कर्मकांड एवं सनातन परंपराओं के अध्ययन और अभ्यास में व्यापक अनुभव प्राप्त किया है।',
+  aboutP2: 'उन्होंने सम्पूर्णानन्द संस्कृत विश्वविद्यालय, वाराणसी से अपनी शास्त्रीय एवं संस्कृत शिक्षा प्राप्त की है, जिसने उन्हें भारतीय ज्ञान परंपरा, ज्योतिष शास्त्र एवं वैदिक कर्मकांड की मजबूत शैक्षिक और पारंपरिक नींव प्रदान की।',
+  aboutP3: 'अपने 15+ वर्षों के अनुभव के दौरान आचार्य जी ने अनेक लोगों को जन्म कुंडली विश्लेषण, करियर, विवाह एवं संबंध, पारिवारिक जीवन, आर्थिक स्थिति, स्वास्थ्य तथा आध्यात्मिक उन्नति से जुड़े विषयों पर मार्गदर्शन प्रदान किया है।',
+  aboutP4: 'आचार्य जी का दृष्टिकोण केवल त्वरित समाधान देने तक सीमित नहीं है। वे व्यक्ति की जन्म कुंडली का सूक्ष्म एवं विस्तृत अध्ययन करके जीवन की परिस्थितियों को समझने और उचित दिशा प्रदान करने का प्रयास करते हैं।',
+  aboutP5: 'प्रत्येक परामर्श व्यक्तिगत, गोपनीय, सहानुभूतिपूर्ण और व्यावहारिक होता है। पारंपरिक वैदिक उपाय, मंत्र, पूजा, अनुष्ठान एवं कर्मकांड के माध्यम से वे मानसिक शांति, सकारात्मकता, संतुलन और समृद्धि की दिशा में मार्गदर्शन प्रदान करते हैं।',
   aboutYearsLabel: 'वर्षों का अनुभव',
   aboutAuthLabel: 'वैदिक प्रामाणिकता',
 
@@ -158,14 +162,16 @@ const en: Translations = {
   heroTimingsLabel: 'Consultation Timings',
   heroTimings: 'Morning: 8:00 AM – 12:00 PM\nEvening: 4:00 PM – 7:30 PM',
   heroLocationLabel: 'Location',
-  heroLocation: 'Shri Ganesh Mandir\nVaish College, Near Rly Station\nRohtak – 124001',
+  heroLocation: 'Shri Ganesh Mandir\nVaish College, Near Railway Station\nRohtak – 124001',
 
   // About
   aboutHeading1: 'Ancient Vedic Wisdom,',
-  aboutHeading2: 'Guiding Modern Life',
-  aboutP1: 'Acharya Kamal Nayan Mishra is a highly respected Vedic astrologer and spiritual guide based at Shri Ganesh Mandir, Rohtak. With deep roots in ancient Indian traditions, he has dedicated his life to the study and practice of Jyotish Shastra (Vedic Astrology) and Karmakand (Vedic Rituals).',
-  aboutP2: 'Rather than offering quick fixes, Guruji provides profound insights into your life\'s path by meticulously analyzing your Kundli (birth chart). His guidance is sought by individuals facing challenges in career, relationships, health, and spiritual growth.',
-  aboutP3: 'Every consultation is strictly confidential, deeply empathetic, and focused on practical, traditional remedies (Vaidik Upay) that bring lasting peace and prosperity.',
+  aboutHeading2: 'Classical Education & 15+ Years of Experience',
+  aboutP1: 'Acharya Kamal Nayan Mishra is a respected Vedic Astrologer, Karmakand Specialist, and Spiritual Guide based at Shri Ganesh Mandir, Rohtak. With 15+ years of experience, he has dedicated his life to the study and practice of Vedic Astrology, Karmakand, and traditional Sanatan practices.',
+  aboutP2: 'He received his traditional Sanskrit and Shastric education from Sampurnanand Sanskrit Vishwavidyalaya, Varanasi, providing him with a strong academic and traditional foundation in Indian knowledge systems, Jyotish Shastra, and Vedic rituals.',
+  aboutP3: 'Over the course of his 15+ years of experience, Acharya Ji has guided individuals on matters related to Kundli analysis, career, marriage and relationships, family life, financial matters, health, and spiritual growth.',
+  aboutP4: 'His approach goes beyond providing quick or superficial solutions. He carefully studies an individual\'s Kundli (birth chart) to understand important planetary influences and provide thoughtful, personalized guidance suited to the individual\'s circumstances.',
+  aboutP5: 'Every consultation is personal, confidential, compassionate, and practical. His guidance incorporates traditional Vedic remedies, mantras, puja, rituals, and Karmakand practices aimed at helping individuals find greater clarity, peace, balance, positivity, and prosperity.',
   aboutYearsLabel: 'Years of Experience',
   aboutAuthLabel: 'Vedic Authenticity',
 
