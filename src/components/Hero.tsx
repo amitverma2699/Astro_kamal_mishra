@@ -39,21 +39,21 @@ export const Hero: FC = () => {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-8 py-3.5 text-base font-semibold text-white shadow-lg hover:bg-[#20bd5a] transition-all hover:-translate-y-1"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-8 py-3.5 text-base font-semibold text-white shadow-lg hover:bg-[#20bd5a] transition-all hover:-tra[...]
               >
                 <MessageCircle className="h-5 w-5" />
                 {t.heroWhatsApp}
               </a>
               <a
                 href={PHONE_URL}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-white border border-border px-8 py-3.5 text-base font-semibold text-foreground shadow-sm hover:bg-muted transition-all hover:-translate-y-1 whitespace-nowrap"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-white border border-border px-8 py-3.5 text-base font-semibold text-foreground shadow-sm hover:bg-muted transit[...]
               >
                 <Phone className="h-5 w-5" />
                 {t.heroCall}
               </a>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left w-full max-w-lg bg-card border shadow-sm rounded-2xl p-5 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left w-full max-w-lg bg-card border shadow-sm rounded-2xl p-5 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-5[...]
               <div className="flex items-start gap-3">
                 <div className="mt-1 bg-primary/10 p-2 rounded-full text-primary">
                   <Clock className="h-4 w-4" />
