@@ -1,4 +1,4 @@
-# Kamal Pandit Ji — Vercel Ready
+# Acharya Kamal Nayan Mishra Ji 
 
 Standalone Vite + React frontend prepared for Vercel.
 
