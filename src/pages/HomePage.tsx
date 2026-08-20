@@ -6,7 +6,6 @@ import { Services } from '@/components/Services';
 import { Trust } from '@/components/Trust';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
-import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
 
 export const HomePage: FC = () => {
   const [selectedService, setSelectedService] = useState<string>('');
@@ -24,7 +23,6 @@ export const HomePage: FC = () => {
       </main>
       
       <Footer />
-      <FloatingWhatsApp />
     </div>
   );
 };
