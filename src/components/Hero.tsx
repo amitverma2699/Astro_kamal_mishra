@@ -84,7 +84,7 @@ export const Hero: FC = () => {
             <div className="relative">
               <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-primary/20 via-accent/20 to-primary/10 blur-sm"></div>
               <img
-                src={acharyaPortrait}
+                src={acharyaHero}
                 alt="Acharya Kamal Nayan Mishra"
                 className="relative w-72 sm:w-80 lg:w-96 aspect-[4/5] object-cover object-top rounded-3xl shadow-2xl border-4 border-white"
               />
