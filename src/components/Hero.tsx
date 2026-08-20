@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { Phone, MessageCircle, Clock, MapPin } from 'lucide-react';
 import { PHONE_URL, WHATSAPP_URL } from '@/lib/constants';
 import { useTranslation } from '@/lib/i18n';
-import acharyaHero from '@/assets/acharya-portrait.jpg';
+import acharyaHero from '@/assets/acharya-hero.jpg';
 
 export const Hero: FC = () => {
   const { t } = useTranslation();
